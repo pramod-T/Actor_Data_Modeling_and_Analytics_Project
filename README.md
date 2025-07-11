@@ -68,7 +68,7 @@ This process helps simulate a time-traveling data warehouse view of actor career
 
 ## Slowly Changing Dimension (SCD Type 2)
 
-In `04_backfill_scd_history.sql`, we implement **SCD Type 2 logic**:
+In `04_backfill_scd_history.sql`, implemented **SCD Type 2 logic**:
 
 - Detects changes in:
   - `is_active` status (active ↔ inactive)
@@ -83,7 +83,7 @@ This allows detailed tracking of actor evolution over time without losing histor
 
 ## 📊 Analytics Performed
 
-In `actor_analytics.sql`, we perform rich analytics using the modeled data:
+In `actor_analytics.sql`, performed rich analytics using the modeled data:
 
 - **Yearly Active Actor Counts**  
 - **Quality Class Distribution Over Time**
